@@ -1,0 +1,59 @@
+*<p title=""> ... </p>
+*<pre>
+  It counts all the white spaces including line break also.
+ </pre>
+*<ul type="disc","circle","square">
+	<li>..</li>
+ </ul>
+*<ol type="1","a","A","i","I">
+	<li>..</li>
+ </ol>
+*<b>...</b> = <strong>...</strong>
+*<i>...</i> = <em>...</em> = emphasize tag
+*<u>...</u> = <ins>...</ins> = insert tag
+*<small>...</small> for writing small texts
+*<del>...</del> strike throw,cutting some texts by a horizontal line
+*<sup>...</sup> superscript
+*<sub>...</sub> subscript
+*<mark>...</mark> for highlighting texts ,in HTML5
+*description tag
+	<dl>
+		<dt>...</dt> define term
+		<dd>...</dd> define description
+	</dl>
+*entity name: copyright
+ &copy;
+ more entities: https://dev.w3.org/html5/html-author/charref
+*<img src="..." alt="No img found" title="..." width="300" height="400">
+*Table
+	<table border="1" width="200" height="300" cellspacing="20" cellpadding="20">
+		<thead>
+			<tr>
+				<th colspan="2" rowspan="3">
+					
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+Nested Table inside the <td> tag
+*<a href="test/page3.html" target="_blank">abcd</a> going into test folder
+ <a href="../page2.html">abcd</a> going one directory back
+ <a href="../../page1.html">abcd</a> going two directory back
+ BookMarking : <h1 id="heading">...</h1>
+ <a href="page.html#heading">abcd</a> shows the id heading in page.html
+target = "_blank" = open in new tab
+target = "_self" = by default open in same tab
+target = "_top" 
+*<iframe src="" width="" height=""></iframe>
